@@ -20,8 +20,8 @@ drwx------ 58 user user 4.0K May 17 18:02 ..
 $ make
 Makefile:22: *** Missing $TLA_BIN. Download "tla2tools.jar" from <https://github.com/tlaplus/tlaplus/releases> and set $TLA_BIN to that path.  Stop.
 $ wget https://github.com/tlaplus/tlaplus/releases/download/v1.8.0/tla2tools.jar
-$ export TLA_BIN="java -jar ./tla2tools.jar"
 [...]
+$ export TLA_BIN="java -jar ./tla2tools.jar"
 $ make
 java -jar ./tla2tools.jar YourModule.tla \
 	-tool \
